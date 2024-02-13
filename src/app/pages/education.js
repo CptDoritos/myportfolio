@@ -48,8 +48,7 @@ export default function Education() {
             Every Piece of Information about th Program I am Completing
           </p>
         </a>
-        <Link href="/" passHref>
-          <a className="group rounded-lg border border-transparent px-10 py-10 transition-colors hover:border-gray-500 hover:bg-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 mx-5">
+        <Link href="/" passHref className="group rounded-lg border border-transparent px-10 py-10 transition-colors hover:border-gray-500 hover:bg-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 mx-5">
             <h2 className={`text-2xl font-semibold`}>
               Home{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -59,7 +58,6 @@ export default function Education() {
             <p style={{ fontWeight: 'bold' }} className={`m-0 max-w-[30ch] text-sm opacity-60`}>
               Return to the Home Menu
             </p>
-          </a>
         </Link>
       </div>
 

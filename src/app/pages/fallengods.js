@@ -24,8 +24,7 @@ export default function FallenGods() {
           </p>
         </div>
 
-        <Link href="/projects" passHref>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-red-900 hover:dark:border-4 hover:dark:bg-neutral-800/30 w-[90%] mx-16">
+        <Link href="/projects" passHref className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-red-900 hover:dark:border-4 hover:dark:bg-neutral-800/30 w-[100%] mx-16">
             <h2 className={`text-2xl font-semibold`}>
               Back{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -35,11 +34,9 @@ export default function FallenGods() {
             <p style={{ fontWeight: 'bold' }} className={`m-0 max-w-[30ch] text-sm opacity-60`}>
               Go Back to Projects
             </p>
-          </a>
         </Link>
 
-        <Link href="/" passHref>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-red-900 hover:dark:border-4 hover:dark:bg-neutral-800/30 w-[100%] mx-16">
+        <Link href="/" passHref className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-red-900 hover:dark:border-4 hover:dark:bg-neutral-800/30 w-[100%] mx-16">
             <h2 className={`text-2xl font-semibold`}>
               Home{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -49,7 +46,6 @@ export default function FallenGods() {
             <p style={{ fontWeight: 'bold' }} className={`m-0 max-w-[30ch] text-sm opacity-60`}>
               Return to the Home Menu
             </p>
-          </a>
         </Link>
 
       </div>

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { useRouter } from 'next/router';
+import { useNavigation } from 'next/navigation';
 
 export default function Projects() {
-  const router = useRouter();
+  const navigation = useNavigation();
   
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">

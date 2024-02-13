@@ -3,7 +3,7 @@ import 'tailwindcss/tailwind.css';
 import { Link } from 'next/link';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createContext } from "react";
-import Home from "./page.js";
+import Home from "./pages/page.js";
 import Projects from './pages/projects.js';
 import Education from './pages/education.js';
 import Contact from './pages/contact.js'

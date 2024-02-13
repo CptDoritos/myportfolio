@@ -44,8 +44,7 @@ export default function HomePage() {
           </p>
         </a>
 
-        <Link href="/projects" passHref>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <Link href="/projects" passHref className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <h2 className={`mb-3 text-2xl font-semibold`}>
               Projects{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -55,11 +54,9 @@ export default function HomePage() {
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
               My Projects, personal or from school, with its information and a link to see them in action
             </p>
-          </a>
         </Link>
 
-        <Link href="/education" passHref>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <Link href="/education" passHref className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <h2 className={`mb-3 text-2xl font-semibold`}>
               Education{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -69,11 +66,9 @@ export default function HomePage() {
             <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
               Information about my Education
             </p>
-          </a>
         </Link>
 
-        <Link href="/contact" passHref>
-          <a className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+        <Link href="/contact" passHref className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <h2 className={`mb-3 text-2xl font-semibold`}>
               Contact{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -83,7 +78,6 @@ export default function HomePage() {
             <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
               Every way you can contact me
             </p>
-          </a>
         </Link>
       </div>
     </main>
