@@ -4,19 +4,18 @@ const nextConfig = {
       return [
         {
           source: '/projects',
-          destination: '/src/app/pages/projects',
+          destination: '/projects'
         },
         {
-            source: '/education',
-            destination: '/src/app/pages/education',
+          source: '/education',
+          destination: '/app/education'
         },
         {
             source: '/contact',
-            destination: '/src/app/pages/contact',
-        }
+            destination: '/contact'
+        },
       ];
     },
   };
   
   export default nextConfig;
-  
