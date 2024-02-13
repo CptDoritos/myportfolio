@@ -43,7 +43,7 @@ export default function PetStore() {
                 </span>
               </h2>
               <p style={{fontWeight: 'bold'}} className={`m-0 max-w-[30ch] text-sm opacity-60`}>
-                Download the Game
+                Download the App
             </p>
             </a>
 

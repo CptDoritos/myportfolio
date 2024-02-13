@@ -34,7 +34,7 @@ export default function Education() {
               </span>
               </h2>
               <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              The School's Website, containing all the necessary information about it
+              The School&apos;s Website, containing all the necessary information about it
               </p>
           </a>
           <a
